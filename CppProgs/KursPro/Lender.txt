@@ -1,0 +1,11 @@
+Notes: 10
+China                     Beijing                   1404328611     9598962        CNY
+USA                       Washington                329484123      9519431        USD
+Japan                     Tokyo                     125900000      377944         JPY
+Germany                   Berlin                    83019200       357385         EUR
+India                     New-Delhi                 1383513000     3287263        INR
+Mexico                    Mexico_City               128649565      1972550        MXN
+Brazil                    Brasilia                  207353391      8515767        BRL
+Russia                    Moskay                    146171015      17125191       RUB
+France                    Pparis                    100000000      1000000        EUR
+Gfdgf                     Dfgdfg                    45345          4534           GFD
