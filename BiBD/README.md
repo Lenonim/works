@@ -2,17 +2,17 @@
 
 ## Содержание
 
-1. [Компоненты и модули EasyServer](#Компоненты-и-модули-EasyServer)
-    - [Компоненты и модули MainForm.dfm/pas](#Компоненты-и-модули-MainForm.dfm/pas)
+1. [EasyServer](#Компоненты-и-модули-EasyServer)
+    - [Компоненты и модули MainForm](#Компоненты-и-модули-MainForm)
     - [Компоненты и модули SrvPropsDlg.dfm/pas](#Компоненты-и-модули-SrvPropsDlg.dfm/pas)
     - [Sender.pas](#Sender)
     - [ReporterConfigurationForm.dfm/pas](#ReporterConfigurationForm)
     - [AddPropsToReporterForm.dfm/pas](#AddPropsToReporterForm)
-2. [Компоненты и модули Bugger](#Компоненты-и-модули-Bugger)
+2. [Bugger](#Компоненты-и-модули-Bugger)
     - [Unit1.dfm/pas](#Unit1)
 3. [DbEditorXML](#Компоненты-и-модули-DbEditorXML)
     - [uMain.dfm/pas](#uMain)  
-4. [Services](#Services)
+4. [Services](#Компоненты-и-модули-Services)
     - [Bublog/bugserv.dll](#Bublog)  
     - [ClientPlog/ClientPropLog.dll](#ClientPlog)  
     - [ClientTlog/ClienTLog.dll](#ClientTlog)
@@ -20,7 +20,7 @@
     - [MSUniServ/MSUniServ.dll](#MSUniServ)  
     - [Propserv/propserv.dll](#Propserv)  
     - [Common\MyUtils.pas](#Common)
-5. [Monitor](#Monitor)
+5. [Monitor](#Компоненты-и-модули-Monitor)
     - [AboutMprDialog.pas](#AboutMprDialog)    
     - [AlarmConfigForm.pas](#AlarmConfigForm)
     - [ArchiveAlarmTableForm.pas](#ArchiveAlarmTableForm)
@@ -39,7 +39,7 @@
     - [ReffinspectorForm.pas](#ReffinspectorForm)
     - [RunTime_Form.pas](#RunTime_Form)
     - [uGaugeDlg.pas](#uGaugeDlg)
-6. [Common](#Common) 
+6. [Common](#Компоненты-и-модули-Common) 
     - [uSrvUtils2.pas](#uSrvUtils2)  
     - [SynEditForm.dfm/pas](#SynEditForm)
     - [RunExpr\Iner.pas](#RunExprIner)
@@ -54,6 +54,8 @@
 
 ### Компоненты и модули MainForm.dfm/pas
 
+Расширение: dfm/pas.
+
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
 |--------------|--------------|----|
@@ -66,6 +68,8 @@ cxLocalizer|TcxLocalizer|DevExpress
 [В содержание](#Содержание)
 
 ### Компоненты и модули SrvPropsDlg.dfm/pas 
+
+Расширение: dfm/pas.
 
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
@@ -90,6 +94,8 @@ SEPriority|TRxSpinEdit|RX Controls
 
 ### Компоненты и модули ReporterConfigurationForm.dfm/pas
 
+Расширение: dfm/pas.
+
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
 |--------------|--------------|----|
@@ -111,7 +117,11 @@ cxStyleReadWriteColumnHeader|TcxStyle|DevExpress
 
 Сторонние модули: cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles, cxCustomData, cxFilter, cxData, cxDataStorage, cxEdit, cxGridCustomTableView, cxGridTableView, cxGridCustomView, cxClasses, cxGridLevel, cxGrid.
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули AddPropsToReporterForm.dfm/pas
+
+Расширение: dfm/pas.
 
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
@@ -132,9 +142,13 @@ cxStyleReadWriteColum|TcxStyle|DevExpress
 
 Сторонние модули: cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles, cxCustomData, cxFilter, cxData, cxDataStorage, cxEdit, cxGridCustomTableView, cxGridTableView, cxGridCustomView, cxClasses, cxGridLevel, cxGrid, cxNavigator.
 
+[В содержание](#Содержание)
+
 ## Компоненты и модули Bugger
 
 ### Компоненты и модули Unit1.dfm/pas 
+
+Расширение: dfm/pas.
 
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
@@ -144,9 +158,13 @@ TAdsQuery|TAdsQuery|Advantage Database Components
 
 Сторонние модули: adsset, adstable, adscnnct, adsdata, adsfunc.
 
+[В содержание](#Содержание)
+
 ## Компоненты и модули DbEditorXML
 
 ### Компоненты uMain.dfm/pas
+
+Расширение: dfm/pas.
 
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
@@ -168,6 +186,8 @@ FormPlacement1| TFormPlacement|RX Tools
 
 Общие модули: BrowserFrom (..\OPC UA\Browser), uCaseDevice, uInit (..\wago_dsx.scr), uSrvUtils2 (..\Common.scr),uload_descr (..\wago_dsx.scr);
 
+[В содержание](#Содержание)
+
 ## Компоненты и модули Services
 
 ### Компоненты и модули Bublog/bugserv.dll
@@ -183,6 +203,8 @@ AdsQuery|TAdsQuery|Advantage
 
 Общие модули: ..\Common\myutils.pas, ..\Common\ServMessages.pas.
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули ClientPlog/ClientPropLog.dll
 
 Компоненты: 
@@ -195,6 +217,8 @@ AdsQuery|TAdsQuery|Advantage
 Сторонние модули: AdsTable, AdsCnnct, AdsSet.
 
 Общие модули: ..\Common\myutils.pas, ..\Common\ServMessages.pas.
+
+[В содержание](#Содержание)
 
 ### Компоненты и модули ClientTlog/ClienTLog.dll
 
@@ -209,6 +233,8 @@ AdsQuery|TAdsQuery|Advantage
 
 Общие модули: ..\Common\myutils.pas, ..\Common\ServMessages.pas.
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули ConnectLog/ConnectLogSErvice.dll
 
 Компоненты: 
@@ -222,6 +248,8 @@ AdsQuery|TAdsQuery|Advantage
 
 Общие модули: Services.src\Common\myutils.pas, Services.src\Common\ServMessages.pas.
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули MSUniServ/MSUniServ.dll
 
 Компоненты: 
@@ -232,6 +260,8 @@ FDPhysPgDriverLink|TFDPhysMSSQLDriverLink|Special class
 Сторонние модули: FireDAC.Phys.MSSQL.
 
 Общие модули: ..\Common\ServMessages.pas.
+
+[В содержание](#Содержание)
 
 ### Компоненты и модули Propserv/propserv.dll
 
@@ -250,6 +280,8 @@ _AdsConnection|TAdsConnection|Advantage
 
 Общие модули: ..\Common\MyUtils.pas, ..\Common\ServMessages.pas.
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули Common\MyUtils.pas
 
 Сторонних компонентов нет.
@@ -257,6 +289,8 @@ _AdsConnection|TAdsConnection|Advantage
 Сторонние модули: AdsTable, AdsCnnct, AdsSet.
 
 Общие модули: нет.
+
+[В содержание](#Содержание)
 
 ## Компоненты и модули Monitor
 
@@ -267,6 +301,8 @@ _AdsConnection|TAdsConnection|Advantage
 Сторонние модули: RxGIF
 
 Общие модули: 
+
+[В содержание](#Содержание)
 
 ### Компоненты AlarmConfigForm.pas
 
@@ -285,6 +321,8 @@ cxGridColumnAlarmType | TcxGridColumn | DevExpress
 
 Общие модули: Project_main (..\Common.src), PropertyList (..\Common.src), Maps_main (..\Common.src), Alarms(..\Common.src), EditString(..\Common.src); 
 
+[В содержание](#Содержание)
+
 ### Компоненты ArchiveAlarmTableForm.pas
 
 Сторонних компонентов нет.
@@ -292,6 +330,8 @@ cxGridColumnAlarmType | TcxGridColumn | DevExpress
 Сторонние модули: dxPSPrVwRibbon;
 
 Общие модули: Reflection_Workshop_1;
+
+[В содержание](#Содержание)
 
 ### Компоненты ArhivForm.pas
 
@@ -306,6 +346,8 @@ ePeriod|   TRxSpinEdit| RX components
 
 Общие модули: PropertyList (..\Common.src), Project_main, Units_main (..\Common.src), Maps_main (..\Common.src);
 
+[В содержание](#Содержание)
+
 ### Компоненты DateInputForm.pas
 
 Компоненты: 
@@ -316,6 +358,8 @@ ePeriod|   TRxSpinEdit| RX components
 Сторонние модули: cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, dxSkinsCore, cxStyles, cxSchedulerStorage, cxSchedulerCustomControls, cxSchedulerDateNavigator, cxContainer, cxDateNavigator;
 
 Общие модули:
+
+[В содержание](#Содержание)
 
 ### Компоненты DeviceInspectorForm.pas
 
@@ -335,6 +379,8 @@ cxGridColumnPropDimension | TcxGridColumn | DevExpress
 
 Общие модули:
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули ProjectImporter.pas
 
 Сторонних компонентов нет.
@@ -343,7 +389,11 @@ cxGridColumnPropDimension | TcxGridColumn | DevExpress
 
 Общие модули: ..\Common.src\Project_main.pas, ..\Common.src\uSrvUtils2.pas, ..\Common.src\Units_main.pas, ..\Common.src\PropertyList.pas, ..\Common.src\Maps_main.pas.
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули PrjInsp_Form.dfm/pas
+
+Расширение: dfm/pas.
 
 Сторонних компонентов нет.
 
@@ -351,7 +401,11 @@ cxGridColumnPropDimension | TcxGridColumn | DevExpress
 
 Общие модули: ChenSel.dfm/pas, ..\Common.src\uSrvUtils2.pas, ..\Common.src\Units_main.pas, ..\Common.src\Maps_main.pas.
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули ObjInspForm.dfm/pas
+
+Расширение: dfm/pas.
 
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
@@ -371,7 +425,11 @@ cxStyleOdd|TcxStyle|DevExpress
 
 Общие модули: ..\Common.src\PropertyList.pas, ChenSel.dfm/pas, ..\Common.src\MessageList.pas, EditPropForm.dfm/pas, MapViewForm.dfm/pas, LayerInspForm.dfm/pas RunTime_Form.dfm/pas  
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули LabelLibraryDialog.dfm/pas
+
+Расширение: dfm/pas.
 
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
@@ -384,13 +442,19 @@ cxGridLabelLibraryTableView|TcxGridTableView|DevExpress
 
 Общие модули: нет.
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули PropertyDialog.dfm/pas
+
+Расширение: dfm/pas.
 
 Сторонних компонентов нет.
 
 Сторонние модули: RXSwitch.
 
 Общие модули: ..\Common.src\Units_main.pas, ..\Common.src\RecipeList.pas, ..\Common.src\Project_main.pas, ..\Common.src\RunExpr\P_UTILS.PAS, ..\Common.src\MessageList.pas, ..\Common.src\PropertyList.pas, ..\Common.src\RunExpr\Iner.pas, ..\Common.src\SynEditForm.pas, ChenSel.dfm/pas, ReadWriteDialog.dfm/pas, ..\Common.src\InitiatorList.pas, RunTime_Form.dfm/pas, AddInitiatorForm.pas, ..\Common.src\App_Utils.pas, ..\AnimationForm.pas
+
+[В содержание](#Содержание)
 
 ### Компоненты и модули receiver.pas
 
@@ -400,6 +464,8 @@ cxGridLabelLibraryTableView|TcxGridTableView|DevExpress
 
 Общие модули:
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули Reflection_Workshop_0.pas
 
 Нестандартных компонентов нет.
@@ -407,6 +473,8 @@ cxGridLabelLibraryTableView|TcxGridTableView|DevExpress
 Сторонние модули: cxGridCustomView, cxCustomData
 
 Общие модули:
+
+[В содержание](#Содержание)
 
 ### Компоненты и модули Reflection_Workshop_1.pas
 
@@ -446,7 +514,11 @@ Grid|TcxGrid|DevExpress
 
 Общие модули:
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули ReffinspectorForm.dfm/pas
+
+Расширение: dfm/pas.
 
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
@@ -457,7 +529,11 @@ ReflectionInspector|TcxRTTIInspector|DevExpress
 
 Общие модули:
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули RunTime_Form.dfm/pas
+
+Расширение: dfm/pas.
 
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
@@ -468,7 +544,11 @@ cxLocalizer|TcxLocalizer|DevExpress
 
 Общие модули:
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули uGaugeDlg.dfm/pas
+
+Расширение: dfm/pas.
 
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
@@ -484,6 +564,8 @@ seMaxLimit|TRxSpinEdit|RXComponents
 
 Общие модули:
 
+[В содержание](#Содержание)
+
 ## Компоненты и модули Common
 
 ### Компоненты и модули uSrvUtils2.pas 
@@ -494,7 +576,11 @@ seMaxLimit|TRxSpinEdit|RXComponents
 
 Общие модули:
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули SynEditForm.dfm/pas 
+
+Расширение: dfm/pas.
 
 Компоненты: 
 |Имя компонента|Тип компонента|Tool|
@@ -513,6 +599,8 @@ ecSelCharPopup1|TecSelCharPopup|SynEditorComponents
 
 Нестандартнаы модули: ecSyntMemo, ecSyntAnal, ecPopupCtrl, ecKeyMap, ecAutoReplace, ecSyntDlg, ecSyntTree
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули RunExpr\Iner.pas 
 
 Нестандартных компонентов нет.
@@ -520,6 +608,8 @@ ecSelCharPopup1|TecSelCharPopup|SynEditorComponents
 Нестандартыне модули: rxvclutils, vclutils, rxstrutils.
 
 Общие модули: P_UTILS.PAS.
+
+[В содержание](#Содержание)
 
 ### Компоненты и модули RunExpr\P_UTILS.PAS 
 
@@ -529,6 +619,8 @@ ecSelCharPopup1|TecSelCharPopup|SynEditorComponents
 
 Общие модули: нет.
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули RunExpr\P_Class.pas 
 
 Нестандартных компонентов нет.
@@ -536,6 +628,8 @@ ecSelCharPopup1|TecSelCharPopup|SynEditorComponents
 Нестандартыне модули: AdsTable, adsdata, adsfunc, adsset,adscnnct, AppFace,p_utils.
 
 Общие модули: P_UTILS.PAS, AppFace.pas.
+
+[В содержание](#Содержание)
 
 ### Компоненты и модули LabelLibraryUnit.pas 
 
@@ -545,6 +639,8 @@ ecSelCharPopup1|TecSelCharPopup|SynEditorComponents
 
 Общие модули: Project_main.pas, RunExpr\P_UTILS.PAS, RunExpr\Iner.pas.
 
+[В содержание](#Содержание)
+
 ### Компоненты и модули Prms_main.pas 
 
 Нестандартных компонентов нет.
@@ -552,6 +648,8 @@ ecSelCharPopup1|TecSelCharPopup|SynEditorComponents
 Нестандартыне модули: OXmlDOMVendor.
 
 Общие модули: нет.
+
+[В содержание](#Содержание)
 
 ### Компоненты и модули Maps_main.pas 
 
@@ -562,3 +660,5 @@ ecSelCharPopup1|TecSelCharPopup|SynEditorComponents
 Общие модули: Units_main.pas, PropertyList.pas, Project_main.pas, RunExpr\P_UTILS.PAS, RunExpr\Iner.pas, ..\Monitor.src\Reflection_Workshop_0.pas, ..\Monitor.src\ObjInspForm.pas,
 ..\Monitor.src\RunTime_Form.pas, ..\Monitor.src\MapViewForm.pas, SynEditForm.pas, ..\Monitor.src\uAddProps.pas, App_Utils.pas, Alarms.pas, ..\Monitor.src\Reflection_Workshop.pas,
 ..\Monitor.src\Reflection_Workshop_1.pas.
+
+[В содержание](#Содержание)
