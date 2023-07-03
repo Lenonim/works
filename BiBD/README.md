@@ -2,9 +2,9 @@
 
 ## Содержание
 
-1. [EasyServer](#Компоненты-и-модули-EasyServer)
-    - [MainForm.dfm/pas](#Компоненты-и-модули-MainForm.dfm/pas)
-    - [SrvPropsDlg.dfm/pas](#Компоненты-и-модули-SrvPropsDlg.dfm/pas)
+1. [Компоненты и модули EasyServer](#Компоненты-и-модули-EasyServer)
+    - [Компоненты и модули MainForm.dfm/pas](#Компоненты-и-модули-MainForm.dfm/pas)
+    - [Компоненты и модули SrvPropsDlg.dfm/pas](#Компоненты-и-модули-SrvPropsDlg.dfm/pas)
     - [Sender.pas](#Sender)
     - [ReporterConfigurationForm.dfm/pas](#ReporterConfigurationForm)
     - [AddPropsToReporterForm.dfm/pas](#AddPropsToReporterForm)
